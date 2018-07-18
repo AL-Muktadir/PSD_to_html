@@ -1,0 +1,235 @@
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	/*color:#a1a1a1;*/
+}
+
+/*header start*/
+header{}
+.wrapper{
+	overflow: hidden;
+	/*border: 1px solid;*/
+	width: 90%;
+	margin: 0 auto;
+}
+.logo{
+	width:15%;
+	float:left;
+	/*border: 1px solid;*/
+	
+}
+.logo p{
+	font-family: 'Inconsolata', monospace;
+	padding: 5px 25px;
+	    font-size: 25px;
+    padding-left: 0px;
+    color: #000000;
+}
+.menu{
+	width:60%;
+	float: right;
+	/*border: 1px solid;*/
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 35px 24px;
+	display: block;
+	font-size: 16px;
+	color: #626262;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*header end*/
+
+/*section banner start*/
+.banner{}
+.banner_img img{
+	width: 100%;
+}
+/*section banner end*/
+
+/*section content start*/
+.content{
+	    padding: 90px 0;
+}
+.wrapper2{
+	    width: 80%;
+    margin: 0 auto;
+}
+.content_text{}
+.content_text .text{
+	    margin-bottom: 40px;
+}
+.content_text h1{
+	font-size: 30px;
+	font-weight: normal;
+}
+.common_text{
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #c7c1b6;
+}
+/*section content end*/
+
+/*section blog start*/
+.blog{}
+.blog_content{
+	overflow: hidden;
+}
+.single_post{
+	    width: 48%;
+    float: left;
+}
+.single_post:nth-child(even) {
+	margin-left: 4%;
+}
+.single_post p{}
+.single_post h1{
+	font-weight: normal;
+}
+.single_post img{
+	width: 100%;
+}
+
+/*section blog end*/
+
+/*section newsletter start*/
+.sign-up-form{
+    padding: 75px 0;
+    background-color: #f0f0f0;
+    margin-bottom: 100px;
+    margin-top: 120px;
+}
+.form-contant{
+    position: relative;
+    width: 590px;
+    margin: 0 auto;
+    text-align: center;
+}
+.form-contant h1{
+    font-size: 30px;
+    color: #333333;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+.form-contant input{
+    width: 328px;
+    background: transparent;
+    border: navajowhite;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 14px;
+    font-size: 14px;
+    color: #626262;
+    padding-left: 5px;
+    padding-right: 40px;
+}
+.form-contant button{
+    border: none;
+    background: transparent;
+    width: 32px;
+    position: absolute;
+    bottom: 8px;
+    right: 109px;
+    cursor: pointer;
+}
+/*section newsletter end*/
+
+/*lifestyle start*/
+
+.btn{
+    text-align: center;
+}
+.btn button{
+    font-family: 'Playfair Display', serif;
+    padding: 18px 26px;
+    font-size: 20px;
+    color: #626262;
+    border: 1px solid #626262;
+    font-weight: 400;
+    margin-top: 165px;
+    background: transparent;
+    cursor: pointer;
+    margin-bottom: 1370px;
+}
+/*lifestyle end*/
+
+/*footer start*/
+footer{
+    padding-top: 40px;
+    padding-bottom: 45px;
+    background-color: #f0f0f0;
+}
+.footer-contant{
+    overflow: hidden;
+}
+.footer-left{
+    width: 40%;
+    float: left;
+    margin-left: 82px;
+}
+.footer-left ul{
+    list-style: none;
+}
+.footer-left ul li{
+    float: left;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 18px;
+    display: block;
+    font-weight: bold;
+    transition: .5s;
+}
+.footer-left ul li a:hover{
+    color: #48A5CF;
+}
+.footer-right{
+    width: 40%;
+    float: right;
+   
+}
+.footer-right ul{
+    float: right;
+    list-style: none;
+    
+}
+.footer-right ul li{
+    float: left;
+    padding: 10px;
+}
+.footer-right ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 17px;
+    display: block;
+    font-weight: bold;
+    transition: .5s;
+
+}
+.footer-right ul li a:hover,.footer-right ul li a i:hover{
+    color: #48A5CF;
+}
+.footer-right ul li:last-child a{
+        margin-right: 0;
+
+}
+.footer-right ul li a i {
+    color: #626262;
+    font-size: 20px;
+    transition: .5s;
+    padding: 80px;
+}
+/*footer end*/
